@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\assassins_creed.jpg",
+      "PackagePath": "staticwebassets\\img\\assassins_creed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\dune.jpg",
+      "PackagePath": "staticwebassets\\img\\dune.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\everest.jpg",
+      "PackagePath": "staticwebassets\\img\\everest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\forrest_gump.jpg",
+      "PackagePath": "staticwebassets\\img\\forrest_gump.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\fury.jpg",
+      "PackagePath": "staticwebassets\\img\\fury.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\lords_of_the_rings.jpg",
+      "PackagePath": "staticwebassets\\img\\lords_of_the_rings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\doguk\\OneDrive\\Masaüstü\\aspdotnet3\\basics\\wwwroot\\img\\the_fault_in_our_stars.jpg",
+      "PackagePath": "staticwebassets\\img\\the_fault_in_our_stars.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.basics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.basics.props",
+      "PackagePath": "build\\basics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.basics.props",
+      "PackagePath": "buildMultiTargeting\\basics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.basics.props",
+      "PackagePath": "buildTransitive\\basics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

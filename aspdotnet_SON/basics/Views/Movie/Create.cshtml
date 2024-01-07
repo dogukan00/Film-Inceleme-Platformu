@@ -1,0 +1,32 @@
+@model Movie
+
+<form method="post">
+  <div class="form-group mb-3">
+      <label for="Name" style="font-weight: bold; font-size: 20px;">İsim</label>
+      <input asp-for="Name" value="@Model.Name" class="form-control" placeholder="Film ismi girin (Örneğin 'Avatar' ) ">
+      <span asp-validation-for="Name" class="text-danger"></span>
+  </div>
+  <div class="form-group mb-3">
+      <label for="ShortDescription" style="font-weight: bold; font-size: 20px;">Kısa Açıklama</label>
+      <input asp-for="ShortDescription" value="@Model.ShortDescription" class="form-control" placeholder="Filmle ilgili kısa bir açıklama yazabilirsiniz (Opsiyonel)">
+      <span asp-validation-for="ShortDescription" class="text-danger"></span>
+  </div>
+  <div class="form-group mb-3">
+      <label for="Description" style="font-weight: bold; font-size: 20px;">Uzun Açıklama</label>
+      <textarea asp-for="Description" value="@Model.Description" class="form-control" placeholder="Filmle ilgili uzun bir açıklama yazabilirsiniz (Opsiyonel)"></textarea>
+      <span asp-validation-for="Description" class="text-danger"></span>
+  </div>
+  <div class="form-group mb-3">
+      <label for="ImageUrl" style="font-weight: bold; font-size: 20px;">Resim</label>
+      <input asp-for="ImageUrl" value="@Model.ImageUrl" class="form-control" placeholder="Filmin resmi için ImageUrl girin (Örneğin 'avatar.jpg' )">
+      <span asp-validation-for="ImageUrl" class="text-danger"></span>
+  </div>
+  <div class="form-group mb-3">
+      <label for="CategoryId" style="font-weight: bold; font-size: 20px;">Kategori</label>
+      <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control">
+            <option selected disabled>Kategori Seçiniz</option>
+      </select>
+      <span asp-validation-for="CategoryId" class="text-danger"></span>
+  </div>
+  <button type="submit" class="btn btn-primary ">Filmi Ekle</button>
+</form>

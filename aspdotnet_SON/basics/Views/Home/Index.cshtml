@@ -1,0 +1,10 @@
+@model IEnumerable<Movie>
+
+<div class="row">
+    <div class="col-md-2">
+        @await Component.InvokeAsync("CategoryMenu")
+    </div>
+    <div class="col-md-10">
+        @await Html.PartialAsync("_movies", Model)
+    </div>
+</div>

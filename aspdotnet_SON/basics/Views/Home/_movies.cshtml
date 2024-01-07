@@ -1,0 +1,39 @@
+@model IEnumerable<Movie>
+
+@if(Model.Count()!=0)
+{
+        @foreach (var movie in Model)
+        {
+            <div class="card mb-3" style="background-color: #F6F6FF;">
+                <div class="row no-gutter">
+                    <div class="col-md-3">
+                        <img src="~/img/@movie.ImageUrl" alt="@movie.Description" class="card-img">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                            <a asp-action="Details" asp-controller="Home" asp-route-id="@movie.Id" style="text-decoration: none;" >  @movie.Name</a> 
+                            </h5>
+                            <p class="card-text">
+                                @movie.ShortDescription
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">@movie.CategoryId days ago</small>
+                            </p>
+                            <a asp-controller="Movie" asp-action="Edit" asp-route-id="@movie.Id" class="btn btn-primary">Güncelle</a>
+                            
+                            <form method="post" action="/Movie/Delete" style="display: inline;">
+                                <input type="hidden" name="Id" value="@movie.Id" />
+                                <button type="submit" class="btn btn-danger">Sil</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }    
+}
+else {
+    <div class="alert alert-danger">
+        <span>Seçilen kategoride film bulunmamaktadir.</span>
+    </div>
+}
